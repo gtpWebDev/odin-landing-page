@@ -1,24 +1,19 @@
 
 body {
   font-family:Arial, Helvetica, sans-serif;
+  color: #E5E7EB; /* default to save repetition */
 }
 
-
-.header {
-  background-color: #1F2937;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 10vw;
-}
-
-
-.header-logo {
-  font-size: 24px;
-  font-weight: 800;
+h1 {
+  font-size: 48px;
+  font-weight: 900;
   color: #F9FAF8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.top-content-left p { /* paragrpahs within this class */
+  color: #E5E7EB;
 }
 
 ul.horizontal-list { /* subclass of ul */
@@ -33,4 +28,60 @@ ul.horizontal-list { /* subclass of ul */
 a {
   text-decoration-line: none;
   color: inherit;
+}
+
+.header, .top-content, .footer {
+  background-color: #1F2937;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10vw;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: 800;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-content {
+  padding: 40px 10vw;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.top-content-text {
+  flex-basis: 50%;
+}
+
+.top-content-image {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(70, 68, 68);
+}
+
+button {
+  background-color: #3882F6;
+  color: #E5E7EB;
+  font-size: 16px;
+  padding: 5px 20px;
+  border-radius: 8px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E5E7EB; 
+  padding: 10px 0;
+  
 }
