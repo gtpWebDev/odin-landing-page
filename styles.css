@@ -12,6 +12,11 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  font-size: 36px;
+  color: #1F2937;
+}
+
 .top-content-left p { /* paragrpahs within this class */
   color: #E5E7EB;
 }
@@ -34,6 +39,7 @@ a {
   background-color: #1F2937;
 }
 
+/* header */
 
 .header {
   display: flex;
@@ -50,8 +56,10 @@ a {
   align-items: center;
 }
 
+/* section 2 - top content */
+
 .top-content {
-  padding: 40px 10vw;
+  padding: 60px 10vw;
   display: flex;
   justify-content: center;
   gap: 25px;
@@ -68,6 +76,38 @@ a {
   align-items: center;
   background-color: rgb(70, 68, 68);
 }
+
+/* section 3 - info content */
+
+.info-content {
+  text-align: center;
+  padding: 10px 10vw 80px 10vw;
+  background-color: #f1f3f5;
+}
+
+.info-content-illustrations-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  gap: 30px;
+}
+
+.info-content-illustration {
+  text-align: center;
+  width: 150px;
+  color: #1F2937;
+}
+
+
+.info-content-illustration-image {
+  
+  height: 150px;
+  color: #1F2937;
+  border: 3px solid #3882F6;
+  border-radius: 10px;
+}
+
 
 button {
   background-color: #3882F6;
